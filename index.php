@@ -21,11 +21,7 @@ session_start();
             }
         ?>
     </div>
-    <?php
-            if(isset($_SESSION['id'])){
-                echo 'You are logged in as user ' . $_SESSION['user'];
-            }
-        ?>
+    
 
 
 

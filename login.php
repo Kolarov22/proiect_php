@@ -25,7 +25,7 @@ if(!empty($_POST['username']) && !empty($_POST['password'])){
             $_SESSION['id'] = $row['id'];
             $_SESSION['user'] = $row['user'];
         }
-        header("Location: index.php");
+        header("Location: main.php");
     }
 
 
